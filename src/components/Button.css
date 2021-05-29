@@ -1,0 +1,39 @@
+.btn {
+  margin: 1rem;
+  display: inline-block;
+  height: 15rem;
+  width: 15rem;
+  border: 0.75rem solid black;
+  border-radius: 25%;
+}
+
+.red {
+  background-color: #db5461;
+}
+
+.green {
+  background-color: #b8ebd0;
+}
+
+.blue {
+  background-color: #6d98ba;
+}
+
+.yellow {
+  background-color: #ead94c;
+}
+
+.pressed {
+  box-shadow: 0 0 20px #e2e8ce;
+  background-color: #50514f;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn {
+    margin: 0.5rem;
+    height: 8rem;
+    width: 8rem;
+    border: 0.75rem solid black;
+    border-radius: 25%;
+  }
+}

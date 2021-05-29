@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+  background-color: #50514f;
+}
+
+#game-directions {
+  font-family: "Press Start 2P", cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #e2e8ce;
+}
+
+.counter {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1rem;
+  margin: 3%;
+  color: #e2e8ce;
+}
+
+.game-over {
+  background-color: #db5461;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 600px) {
+  #game-directions {
+    font-size: 1.5rem;
+    margin: 5%;
+    padding-top: 40px;
+    color: #e2e8ce;
+  }
+
+  .counter {
+    font-family: "Press Start 2P", cursive;
+    font-size: 0.5rem;
+    margin: 3%;
+    color: #e2e8ce;
+  }
+}
